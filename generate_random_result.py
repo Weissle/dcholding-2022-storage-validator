@@ -5,7 +5,7 @@ import random
 
 if __name__ == "__main__":
 	if(len(sys.argv) != 2):
-		print('参数个数不正确，用法  python validator.py {INPUT_FILE} ')
+		print('参数个数不正确，用法  python generate_random_result.py {INPUT_FILE} ')
 		print('INPUT_FILE 应该是 input1.txt 或 input2.txt')
 		exit(0)
 	input_file = sys.argv[1]
