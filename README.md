@@ -5,9 +5,17 @@
 :warning: 这个**不**是官方验证器。本判题器为了方便要求的格式为txt，官方提交要求的是excel的格式。
 
 ## 使用
+### 验证数据
 `python validator.py input1.txt output1.txt`  
 第一个参数为输入数据，一般是input1.txt或input2.txt，如果你自己造了数据也可以使用自己的数据为输入。  
-第二个参数为你自己程序的结果，格式见解释或者result.txt。
+第二个参数为你自己程序的结果，格式见解释或者result.txt。  
+
+### 生成提交的excel文件
+要求装有python库xlsxwriter `pip install xlsxwriter`.  
+输出的结果1和2分别命名为 result1.txt,result2.txt。  
+`python submit_generate.py`,结果保存在`submit.xlsx`
+
+
 ## 随机生成结果数据
 `python generate_random_result.py input1.txt`  
 注意，结果是完全随机出来的，因此开销可能非常的大，只是为了展示结果文件的格式！
